@@ -8,4 +8,5 @@ export enum RabbitMqQueue {
 
 export enum RabbitMqPatterns {
     ORDER_CREATED = 'ORDER_CREATED',
+    FETCH_ORDERS = 'FETCH_ORDERS',
 }
