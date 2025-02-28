@@ -12,6 +12,6 @@ export class OrderService {
     async createOrder(dto: CreateOrderDto) {
         this.rabbitMQService.emit(RabbitMqPatterns.ORDER_CREATED, dto);
 
-        return { message: 'Order created' };
+        return { message: 'Order request sent' };
     }
 }

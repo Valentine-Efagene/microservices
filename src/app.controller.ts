@@ -24,7 +24,7 @@ export class AppController {
     console.log('Event data: ' + data);
 
     return {
-      name: 'John Doe', 
+      name: 'John Doe',
       age: 30
     }
   }
